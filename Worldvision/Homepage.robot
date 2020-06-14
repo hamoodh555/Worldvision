@@ -2,7 +2,7 @@
 Library           SeleniumLibrary
 
 *** Variables ***
-${baseurl}        http://www.gmmco.in/
+${baseurl}        https://uat.worldvision.in/
 ${browser}        chrome
 
 *** Test Cases ***
