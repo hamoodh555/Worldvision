@@ -7,8 +7,8 @@ ${browser}        chrome
 
 *** Test Cases ***
 Logo and menus list verification
-    Local browser launch
-    #Jenkins browser launch
+    #Local browser launch
+    Jenkins browser launch
     Element Should Be Visible    xpath=.//div[@class='header_new_logo']/div/a/img
     Sleep    4s
 
